@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
               ),
               keyboardType: TextInputType.number,
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('OK'),
               onPressed: () {
                 final desiredWater = double.parse(desiredWaterController.text);
@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
                 );
               },
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('Consulter les conseils'),
               onPressed: () {
                 Navigator.push(
