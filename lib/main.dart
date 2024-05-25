@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.notifications),
             onPressed: () {
-              // Ajoutez ici la logique de notification
+
             },
           )
         ],
@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
             ),
             TextField(
               controller: desiredWaterController,
-              decoration: InputDecoration(
+              decoration:   InputDecoration(
                 labelText: 'Quantité d\'eau à boire par jour (minimum 2L)',
               ),
               keyboardType: TextInputType.number,
